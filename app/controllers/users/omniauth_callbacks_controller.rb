@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+frozen_string_literal: true
 
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   # You should configure your model like this:
@@ -12,19 +12,19 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   # https://github.com/plataformatec/devise#omniauth
 
   # GET|POST /resource/auth/twitter
-  # def passthru
-  #   super
-  # end
+  def passthru
+    super
+  end
 
   # GET|POST /users/auth/twitter/callback
-  # def failure
-  #   super
-  # end
+  def failure
+    super
+  end
 
-  # protected
+  protected
 
   # The path used when OmniAuth fails
-  # def after_omniauth_failure_path_for(scope)
-  #   super(scope)
-  # end
+  def after_omniauth_failure_path_for(scope)
+    super(scope)
+  end
 end
