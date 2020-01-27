@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.5.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -89,4 +89,4 @@ gem 'carrierwave'
 #additional
 # gem 'will_paginate'
 # gem 'will_paginate-bootstrap4'
-gem 'by_star', git: 'git://github.com/radar/by_star'
+# gem 'by_star', git: 'git://github.com/radar/by_star'
