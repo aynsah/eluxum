@@ -87,6 +87,6 @@ gem 'mini_magick'
 gem 'carrierwave'
 
 #additional
-gem 'will_paginate'
-gem 'will_paginate-bootstrap4'
+# gem 'will_paginate'
+# gem 'will_paginate-bootstrap4'
 gem 'by_star', git: 'git://github.com/radar/by_star'

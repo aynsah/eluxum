@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'home/index'
  #  	scope :api, defaults: {format: :json} do
 	#   devise_for :users

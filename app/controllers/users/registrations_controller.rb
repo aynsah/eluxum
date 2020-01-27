@@ -22,7 +22,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
           render :status => 200, :json => resource
         else
           render :status => :unprocessable_entity, :json => resource.errors
+        end
       }
+    end
 
     # guest_number = 0
     # resource.username = "Guest"
